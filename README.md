@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🌐 Devcation Website  : [https://web-recreate-igdtuw-hackathon.vercel.app/](https://new-igdtuw.vercel.app/)
 
-First, run the development server:
+A sleek, modern **Next.js** web application replicating the [Devcation 2025 website]([https://devcation-2025.vercel.app/](https://web-recreate-igdtuw-hackathon.vercel.app/)) with full responsiveness, stunning UI, and modular architecture.
+
+> ⚡ Built for performance, scalability, and future enhancements.
+
+---
+
+
+
+## screenshots::
+
+![Screenshot (984)](https://github.com/user-attachments/assets/aebe54f0-61f2-427b-820e-220ce543d14c)
+![Screenshot (985)](https://github.com/user-attachments/assets/5f6bd549-2960-4ef5-bf24-71d6cc4f2d87)
+![Screenshot (986)](https://github.com/user-attachments/assets/bcdc7595-af73-414e-bf90-764fa38d36c1)
+![Screenshot (987)](https://github.com/user-attachments/assets/cbfa9603-7cd1-4a1d-ad80-9ca15853bee7)
+![Screenshot (988)](https://github.com/user-attachments/assets/5d8d81ec-2177-4f74-8e0c-0ccc88fb8c20)
+![Screenshot (989)](https://github.com/user-attachments/assets/b8261ab3-91ba-41fb-b157-0e349f81eab5)
+![Screenshot (990)](https://github.com/user-attachments/assets/5c914648-3889-46c2-8bf9-5c9e1115becc)
+![Screenshot (991)](https://github.com/user-attachments/assets/1e6fabc2-5e79-4276-8706-c2ce327ee3f3)
+
+
+---
+
+
+## 🚀 Tech Stack
+
+| Tech              | Purpose                             |
+|------------------|-------------------------------------|
+| [Next.js 14](https://nextjs.org)         | React framework for SSR, routing, and performance |
+| [Tailwind CSS](https://tailwindcss.com) | Utility-first CSS for responsive styling          |
+| [TypeScript](https://www.typescriptlang.org/) | Strongly typed JavaScript                        |
+| [shadcn/ui](https://ui.shadcn.com/)     | UI components built on Radix and Tailwind        |
+| [Vercel](https://vercel.com)            | Seamless deployment platform for Next.js apps    |
+| [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) | Code linting and formatting                    |
+
+---
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/devcation-clone.git
+cd devcation-clone
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit **[http://localhost:3000](http://localhost:3000)** to view your app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+/
+├── app/               # Next.js App Directory (Routing)
+│   └── page.tsx       # Main landing page
+├── components/        # Reusable UI components
+├── styles/            # Global and Tailwind CSS configs
+├── public/            # Static assets
+├── utils/             # Helper functions and constants
+├── node_modules/      # Project dependencies
+└── package.json       # Project metadata and scripts
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployed easily on **Vercel**:
 
-## Deploy on Vercel
+- Connect your GitHub repo
+- Click **"Deploy"**
+- That’s it! 🎉
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+More info here: [Vercel Deployment Docs]((https://web-recreate-igdtuw-hackathon.vercel.app/))
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Learn More
+
+- [Next.js Docs](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [shadcn/ui Guide](https://ui.shadcn.com/docs)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 💡 Author
+
+Made with ❤️ by [Aniket kumar](https://github.com/aniket866)
